@@ -1,0 +1,1 @@
+# TODO serializer fields can be ChoiceFields for Category and Brand fields
