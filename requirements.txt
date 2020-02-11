@@ -4,14 +4,11 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
---extra-index-url http://pypi-de-utils.kpn.org
---trusted-host pypi-de-utils.kpn.org
-
 certifi==2018.1.18        # via requests
 chardet==3.0.4            # via requests
 coreapi==2.3.3
 coreschema==0.0.4         # via coreapi
-django==2.0.4
+django==2.2.10
 djangorestframework==3.8.2
 idna==2.6                 # via requests
 itypes==1.1.0             # via coreapi
@@ -19,5 +16,6 @@ jinja2==2.10              # via coreschema
 markupsafe==1.0           # via jinja2
 pytz==2018.4              # via django
 requests==2.18.4          # via coreapi
+sqlparse==0.3.0           # via django
 uritemplate==3.0.0        # via coreapi
 urllib3==1.22             # via requests
